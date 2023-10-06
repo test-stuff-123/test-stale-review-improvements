@@ -51,5 +51,5 @@ jobs:
         with:
           token: ${{ steps.generate-token.outputs.token }}
           # no-owner-action: dismiss-none
-          # force-push-action: dismiss-none
+          force-push-action: dismiss-none
           #ignore-files: |
